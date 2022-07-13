@@ -94,7 +94,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top:2.5%;
+    margin-top:5.5%;
     margin-bottom: 2.5%;
 }
 
@@ -133,4 +133,27 @@
 
 .main-title {
     font-size:38px;
+}
+
+.main {
+    margin-bottom: 6%;
+}
+
+.inspiring-quote {
+    background-color: rgb(238, 238, 238);
+    padding: 6%;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 2rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-size:1.5rem;
+    font-weight: bold;
 }
